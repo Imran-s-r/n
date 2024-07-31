@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    /* display: flex;
+    justify-content: center; */
+    background-color: bisque;
+    scroll-behavior: smooth;
+    color: #4f4e4ee6;
+    font-family:   "Oswald", sans-serif;
+}
+
+
+
+.container{
+    width: 400px;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 12px;
+    margin:auto ;
+    
+}
+@media (max-width: 450px) 
+{
+    .container{
+        width: 350px;
+        /* height: 129vh; */
+    }
+    .img-box img{
+        flex-shrink: 1;
+        width: 100%;
+        height: 200px;
+    }
+}
+@media (max-width:360px){
+    
+    .container{
+        margin: 0;
+        height: 129vh;
+        width: 300px;
+    }
+    .img-box img{
+        flex-shrink: 1;
+        width: 500px;
+        height: 200px;
+    }
+}
+.content{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.img-box{
+    width: 97.5%;
+    height: 150px;
+    /* margin-left: 10px; */
+    /* margin-right: auto; */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 15px;
+    
+}
+.img-box img{
+    flex-shrink: 1;
+    width: 500px;
+    height: 200px;
+}
+h3{
+    margin: 5px 0;
+}
+p{
+    font-size: 10px;
+}
+.list{
+    background-color: rgba(233, 5, 123, 0.353);
+    border-radius: 8px;display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.list ul{
+    margin-left: 20px;
+    padding: 0;
+    margin-top: 5px;
+}
+.list ul li{
+    font-size: 10px;
+}
+.prep{
+    color: maroon;
+    margin-bottom: 5px;
+}
+.h4{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(104, 31, 31);
+}
+.ing{
+    margin-top: 5px;
+    font-size: 10px;
+    padding: 0 20px;
+}
+.ingh4{
+    margin-left: 10px;
+
+}
+ol{
+    font-size: 10px;
+    padding-left: 20px;
+}
+.insth4{
+    margin-left: 10px;
+}
+.nuh4{
+    margin: 5px;
+    color: rgb(104, 31, 31);
+
+}
+.calories{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.calories p{
+    font-size: 10px;
+}
+hr{
+    margin: 3px;
+}
+li span{
+    font-weight: 600;
+}
